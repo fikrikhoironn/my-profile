@@ -1,8 +1,4 @@
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-
 export default async function Index() {
   const profilePicUrl = 'https://storage.googleapis.com/profile-bucket-dicoding/fikron2.png';
 
@@ -70,11 +66,9 @@ export default async function Index() {
             <h2 className="font-bold text-3xl mb-3">Contact</h2>
             <div className="flex flex-col items-center">
               <a href="mailto:fikrikhoironn@gmail.com" className="text-blue-500 hover:underline flex items-center">
-                <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
                 fikrikhoironn@gmail.com
               </a>
               <a href="https://github.com/fikrikhoironn" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline mt-2 flex items-center">
-                <FontAwesomeIcon icon={faGithub} className="mr-2" />
                 GitHub: fikrikhoironn
               </a>
             </div>
